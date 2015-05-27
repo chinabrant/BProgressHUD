@@ -49,6 +49,7 @@ class IndexViewController: UITableViewController {
             break
         case 1:
             BProgressHUD.showSuccessMessageAutoHide(2, msg: "test这是长一点内容的测试")
+            
             break
         case 2:
             BProgressHUD.showErrorMessageAutoHide(2, msg: "test", dismissBlock: nil)
