@@ -348,13 +348,13 @@ class BProgressHUD: NSObject {
         NSTimer.scheduledTimerWithTimeInterval(delay, target: self, selector: "dismiss", userInfo: nil, repeats: false)
     }
     
-    func dismiss(delay: NSTimeInterval, animated: Bool) {
-        if animated {
-            NSTimer.scheduledTimerWithTimeInterval(delay, target: self, selector: "dismissAnimated", userInfo: nil, repeats: false)
-        } else {
-            NSTimer.scheduledTimerWithTimeInterval(delay, target: self, selector: "dismiss", userInfo: nil, repeats: false)
-        }
-    }
+//    func dismiss(delay: NSTimeInterval, animated: Bool) {
+//        if animated {
+//            NSTimer.scheduledTimerWithTimeInterval(delay, target: self, selector: "dismissAnimated", userInfo: nil, repeats: false)
+//        } else {
+//            NSTimer.scheduledTimerWithTimeInterval(delay, target: self, selector: "dismiss", userInfo: nil, repeats: false)
+//        }
+//    }
     
     func dismiss() {
         dispatch_async(dispatch_get_main_queue(), { () -> Void in
