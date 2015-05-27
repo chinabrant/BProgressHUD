@@ -27,7 +27,7 @@ iOS7 or higher
 # Podfile
 If you use CocoaPods, you can install the latest release version of BProgressHUD by adding the following to your project's Podfile:
 ```
-pod 'BBannerView'
+pod 'BProgressHUD'
 ```
 # LICENSE
 BBannerView is licensed under the MIT License.
