@@ -121,7 +121,7 @@ enum BProgressHUDMode {
     case OnlyMessage
 }
 
-class BProgressHUD: NSObject {
+public class BProgressHUD: NSObject {
     var backView: UIView!  // the fullscreen back
     var backColor: UIColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0) // the fullscreen back color
     var messageBackView: UIView! // the hud back
