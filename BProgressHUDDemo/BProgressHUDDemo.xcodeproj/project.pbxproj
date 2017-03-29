@@ -11,20 +11,12 @@
 		093D833F1B14563D00024BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093D833D1B14563D00024BC9 /* Main.storyboard */; };
 		093D83411B14563D00024BC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093D83401B14563D00024BC9 /* Images.xcassets */; };
 		093D83441B14563D00024BC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 093D83421B14563D00024BC9 /* LaunchScreen.xib */; };
-		093D83501B14563D00024BC9 /* BProgressHUDDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093D834F1B14563D00024BC9 /* BProgressHUDDemoTests.swift */; };
-		093D835B1B1456DA00024BC9 /* BProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093D835A1B1456DA00024BC9 /* BProgressHUD.swift */; };
 		093D835D1B1459B600024BC9 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093D835C1B1459B600024BC9 /* IndexViewController.swift */; };
+		94E7CF151E8B85E300E8C9AA /* BProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E7CF131E8B85E300E8C9AA /* BProgressHUD.swift */; };
+		94E7CF161E8B85E300E8C9AA /* BProgressHUD.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 94E7CF141E8B85E300E8C9AA /* BProgressHUD.podspec */; };
+		94E7CF181E8B8EB200E8C9AA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E7CF171E8B8EB200E8C9AA /* LoadingView.swift */; };
+		94E7CF1A1E8B922400E8C9AA /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E7CF191E8B922400E8C9AA /* DemoViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		093D834A1B14563D00024BC9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 093D832C1B14563D00024BC9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 093D83331B14563D00024BC9;
-			remoteInfo = BProgressHUDDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		093D83341B14563D00024BC9 /* BProgressHUDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BProgressHUDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,22 +25,17 @@
 		093D833E1B14563D00024BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		093D83401B14563D00024BC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		093D83431B14563D00024BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		093D83491B14563D00024BC9 /* BProgressHUDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BProgressHUDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		093D834E1B14563D00024BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		093D834F1B14563D00024BC9 /* BProgressHUDDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BProgressHUDDemoTests.swift; sourceTree = "<group>"; };
-		093D835A1B1456DA00024BC9 /* BProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BProgressHUD.swift; sourceTree = "<group>"; };
 		093D835C1B1459B600024BC9 /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		94E7CF131E8B85E300E8C9AA /* BProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BProgressHUD.swift; sourceTree = "<group>"; };
+		94E7CF141E8B85E300E8C9AA /* BProgressHUD.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BProgressHUD.podspec; path = ../BProgressHUD.podspec; sourceTree = "<group>"; };
+		94E7CF171E8B8EB200E8C9AA /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		94E7CF191E8B922400E8C9AA /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		093D83311B14563D00024BC9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		093D83461B14563D00024BC9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,7 +48,8 @@
 		093D832B1B14563D00024BC9 = {
 			isa = PBXGroup;
 			children = (
-				093D83591B14567400024BC9 /* BProgressHUD */,
+				94E7CF121E8B85E300E8C9AA /* BProgressHUD */,
+				94E7CF141E8B85E300E8C9AA /* BProgressHUD.podspec */,
 				093D83361B14563D00024BC9 /* BProgressHUDDemo */,
 				093D834C1B14563D00024BC9 /* BProgressHUDDemoTests */,
 				093D83351B14563D00024BC9 /* Products */,
@@ -72,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				093D83341B14563D00024BC9 /* BProgressHUDDemo.app */,
-				093D83491B14563D00024BC9 /* BProgressHUDDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +73,7 @@
 				093D83421B14563D00024BC9 /* LaunchScreen.xib */,
 				093D83371B14563D00024BC9 /* Supporting Files */,
 				093D835C1B1459B600024BC9 /* IndexViewController.swift */,
+				94E7CF191E8B922400E8C9AA /* DemoViewController.swift */,
 			);
 			path = BProgressHUDDemo;
 			sourceTree = "<group>";
@@ -115,12 +103,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		093D83591B14567400024BC9 /* BProgressHUD */ = {
+		94E7CF121E8B85E300E8C9AA /* BProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				093D835A1B1456DA00024BC9 /* BProgressHUD.swift */,
+				94E7CF131E8B85E300E8C9AA /* BProgressHUD.swift */,
+				94E7CF171E8B8EB200E8C9AA /* LoadingView.swift */,
 			);
-			path = BProgressHUD;
+			name = BProgressHUD;
+			path = ../BProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,24 +133,6 @@
 			productReference = 093D83341B14563D00024BC9 /* BProgressHUDDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		093D83481B14563D00024BC9 /* BProgressHUDDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 093D83561B14563D00024BC9 /* Build configuration list for PBXNativeTarget "BProgressHUDDemoTests" */;
-			buildPhases = (
-				093D83451B14563D00024BC9 /* Sources */,
-				093D83461B14563D00024BC9 /* Frameworks */,
-				093D83471B14563D00024BC9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				093D834B1B14563D00024BC9 /* PBXTargetDependency */,
-			);
-			name = BProgressHUDDemoTests;
-			productName = BProgressHUDDemoTests;
-			productReference = 093D83491B14563D00024BC9 /* BProgressHUDDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,10 +144,7 @@
 				TargetAttributes = {
 					093D83331B14563D00024BC9 = {
 						CreatedOnToolsVersion = 6.3;
-					};
-					093D83481B14563D00024BC9 = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 093D83331B14563D00024BC9;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -193,7 +162,6 @@
 			projectRoot = "";
 			targets = (
 				093D83331B14563D00024BC9 /* BProgressHUDDemo */,
-				093D83481B14563D00024BC9 /* BProgressHUDDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -203,16 +171,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E7CF161E8B85E300E8C9AA /* BProgressHUD.podspec in Resources */,
 				093D833F1B14563D00024BC9 /* Main.storyboard in Resources */,
 				093D83441B14563D00024BC9 /* LaunchScreen.xib in Resources */,
 				093D83411B14563D00024BC9 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		093D83471B14563D00024BC9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,28 +186,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				093D833A1B14563D00024BC9 /* AppDelegate.swift in Sources */,
-				093D835B1B1456DA00024BC9 /* BProgressHUD.swift in Sources */,
+				94E7CF181E8B8EB200E8C9AA /* LoadingView.swift in Sources */,
 				093D835D1B1459B600024BC9 /* IndexViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		093D83451B14563D00024BC9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				093D83501B14563D00024BC9 /* BProgressHUDDemoTests.swift in Sources */,
+				94E7CF151E8B85E300E8C9AA /* BProgressHUD.swift in Sources */,
+				94E7CF1A1E8B922400E8C9AA /* DemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		093D834B1B14563D00024BC9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 093D83331B14563D00024BC9 /* BProgressHUDDemo */;
-			targetProxy = 093D834A1B14563D00024BC9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		093D833D1B14563D00024BC9 /* Main.storyboard */ = {
@@ -355,6 +303,7 @@
 				INFOPLIST_FILE = BProgressHUDDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -365,40 +314,7 @@
 				INFOPLIST_FILE = BProgressHUDDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		093D83571B14563D00024BC9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BProgressHUDDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BProgressHUDDemo.app/BProgressHUDDemo";
-			};
-			name = Debug;
-		};
-		093D83581B14563D00024BC9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BProgressHUDDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BProgressHUDDemo.app/BProgressHUDDemo";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -421,14 +337,7 @@
 				093D83551B14563D00024BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		093D83561B14563D00024BC9 /* Build configuration list for PBXNativeTarget "BProgressHUDDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				093D83571B14563D00024BC9 /* Debug */,
-				093D83581B14563D00024BC9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

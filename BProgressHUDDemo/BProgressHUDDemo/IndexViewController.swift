@@ -26,41 +26,45 @@ class IndexViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Potentially incomplete method implementation.
-        // Return the number of sections.
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return 5
+        return 6
     }
-
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath as IndexPath, animated: true)
         
         switch indexPath.row {
         case 0:
             BProgressHUD.showLoadingView()
-            BProgressHUD.dismissHUD(5)
+            BProgressHUD.dismissHUD(delay: 5)
             break
         case 1:
-            BProgressHUD.showSuccessMessageAutoHide(2, msg: "test这是长一点内容的测试")
+            BProgressHUD.showSuccessMessageAutoHide(delay: 2, msg: "test这是长一点内容的测试")
             
             break
         case 2:
-            BProgressHUD.showErrorMessageAutoHide(2, msg: "test", dismissBlock: nil)
+            BProgressHUD.showErrorMessageAutoHide(delay: 2, msg: "test", dismissBlock: nil)
             break
         case 3:
-            BProgressHUD.showLoadingViewWithMessage("Loading...")
-            BProgressHUD.dismissHUD(5)
+            BProgressHUD.showLoadingViewWithMessage(msg: "Loading...")
+            BProgressHUD.dismissHUD(delay: 5)
             break
         case 4:
-            BProgressHUD.showOnlyMessageAutoHide(2, msg: "只显示文本信息", dismissBlock: nil)
+            BProgressHUD.showOnlyMessageAutoHide(delay: 2, msg: "只显示文本信息", dismissBlock: nil)
             break
+        case 5: 
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DemoViewController") as! DemoViewController
+            self.navigationController?.pushViewController(vc, animated: true)
+            
+            break
+        
             
         default:
             
